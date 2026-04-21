@@ -23,7 +23,7 @@ This project is a full stack app to manage team members with image upload.
 - File: `backend/.env`
 - Default values already set:
   - `PORT=5000`
-  - `MONGO_URI=mongodb://127.0.0.1:27017/team_members_db`
+  - `MONGO_URI=mongodb:
 
 ## Run the App
 1. Start backend:
@@ -32,7 +32,7 @@ This project is a full stack app to manage team members with image upload.
 2. Start frontend in another terminal:
    - `cd frontend`
    - `npm run dev`
-3. Open the frontend URL shown by Vite (usually `http://localhost:5173`).
+3. Open the frontend URL shown by Vite (usually `http://localhost:`).
 
 ## API Endpoints
 - `POST /api/members` - Add a new member (multipart/form-data, include `image` file)
